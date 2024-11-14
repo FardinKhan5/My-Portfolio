@@ -136,7 +136,7 @@ export default function Projects() {
   const [seeMore,setSeeMore]=useState<boolean>(false)
 
   return (
-    <div className="py-32 px-10">
+    <div className="py-32 px-10" id="Projects">
       <h2 className="text-4xl text-center font-bold  dark:text-white text-black  mb-10">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-3 gap-5 space-x-3 place-items-center ">
         {projectsData.map((p,index) => {

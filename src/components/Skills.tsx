@@ -60,7 +60,7 @@ function Skills() {
     return (
 
 
-        <div className="pb-4">
+        <div className="pb-4" id='Skills'>
             <h1 className='text-center text-4xl dark:text-white text-black font-bold'>My Skills</h1>
         <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3 px-32 py-5 ">
             {skills.map((skill:{logo:ReactElement,name:string},index:number) => {
