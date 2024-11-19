@@ -20,13 +20,13 @@ export default function HeroSection() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-2xl sm:mt-24 px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
         <Highlight className="text-black dark:text-white">
         Hi, I'm Fardin Khan – A Passionate Full Stack Developer
         </Highlight>
       </motion.h1>
-      <h2 className="text-xl text-center mt-3 md:text-2xl lg:text-3xl dark:text-white text-black">I specialize in building dynamic and responsive web applications using the latest technologies.</h2>
+      <h2 className="px-4 text-xl text-center mt-3 md:text-2xl lg:text-3xl dark:text-white text-black">I specialize in building dynamic and responsive web applications using the latest technologies.</h2>
 
         <div className="w-full flex justify-center py-4">
         <Link href={"#Projects"}>

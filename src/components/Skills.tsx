@@ -25,7 +25,7 @@ import {
     SiCplusplus,
     SiMysql,
   } from 'react-icons/si';
-
+import Heading from './Heading'
   
   const skills = [
       { logo: <FaReact size={50} />, name: 'React' },
@@ -60,13 +60,13 @@ function Skills() {
     return (
 
 
-        <div className="pb-4" id='Skills'>
-            <h1 className='text-center text-4xl dark:text-white text-black font-bold'>My Skills</h1>
+        <div className="py-32 bg-neutral-100 dark:bg-black dark:bg-dot-thick-white/[0.2] bg-dot-thick-black/[0.2]" id='Skills'>
+          <Heading>Skills</Heading>
         <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3 px-32 py-5 ">
             {skills.map((skill:{logo:ReactElement,name:string},index:number) => {
                 if(showMore || (!showMore && index < 5)){
                     return (
-                        <GlareCard key={skill.name} className="flex flex-col items-center justify-center bg-purple-600">
+                        <GlareCard key={skill.name} className="flex flex-col items-center justify-center text-white bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500">
                             {skill.logo}
                             <p className="text-white font-bold text-sm mt-4">{skill.name}</p>
                         </GlareCard>
