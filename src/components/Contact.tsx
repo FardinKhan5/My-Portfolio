@@ -12,6 +12,7 @@ import Heading from "./Heading";
 
 
 export function Contact() {
+  const web3formsAccessKey=process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY
   const [result, setResult] = useState<string>("")
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -28,7 +29,7 @@ export function Contact() {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "4a126e3e-f8f3-4786-8d60-000767dbe404",
+          access_key: web3formsAccessKey,
           email: target.email.value,
           message: target.message.value,
         }),
@@ -59,7 +60,7 @@ export function Contact() {
         </p>
 
         <form className="my-8" onSubmit={handleSubmit}>
-          <input type="hidden" name="access_key" value="4a126e3e-f8f3-4786-8d60-000767dbe404" />
+          <input type="hidden" name="access_key" value={web3formsAccessKey} />
           <LabelInputContainer className="mb-4">
             <Label htmlFor="email">Email Address</Label>
             <Input id="email" placeholder="name@gmail.com" type="email" required />

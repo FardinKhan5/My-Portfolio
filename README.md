@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website  
 
-## Getting Started
+🚀 A modern, responsive portfolio website built using cutting-edge technologies like **Next.js**, **TypeScript**, **TailwindCSS**, and **Aceternity UI**. The website supports **dark** and **light** themes, ensuring a seamless user experience across all devices. The contact form is powered by **Web3Forms** for secure and efficient message handling.  
 
-First, run the development server:
+---
 
+## 🌟 Features  
+
+- **Fast and Responsive**: Optimized for performance and works seamlessly across all devices.
+- **Dark/Light Themes**: Switch between themes effortlessly.
+- **Contact Form**: Securely collect messages using Web3Forms.
+- **Modern UI**: Designed with Aceternity UI for a polished and professional look.
+- **Built with Next.js**: Utilizing server-side rendering and static generation for optimal performance.
+- **TypeScript Support**: Ensures robust and type-safe code.
+- **TailwindCSS Styling**: Highly customizable and utility-first CSS framework.
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Framework**: [Next.js](https://nextjs.org/)  
+- **Language**: [TypeScript](https://www.typescriptlang.org/)  
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)  
+- **UI Library**: [Aceternity UI](https://aceternity.com)  
+- **Form Handling**: [Web3Forms](https://web3forms.com/)  
+
+---
+
+## 🚀 Installation  
+
+Follow these steps to set up the project locally:  
+
+# Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+```
+# Install Dependencies
+```bash
+npm install
+or
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Set Up Environment Variables
+```bash
+echo "NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY=your_access_key_here" > .env.local
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Run the Development Server
+```bash
+npm run dev
+or
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Build for Production
+```bash
+npm run build
+npm run start
+or
+yarn build
+yarn start
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
