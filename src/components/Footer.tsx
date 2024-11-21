@@ -1,9 +1,9 @@
 "use client"
 
-import Link from "next/link"
 import { useState } from "react"
 import { FaGoogleDrive, FaInstagram, FaMoon, FaSun } from "react-icons/fa"
 import { FaGithub, FaLinkedin } from "react-icons/fa6"
+import Link from "next/link"
 
 const Footer = () => {
   const [theme, setTheme] = useState<boolean>(true)
@@ -19,44 +19,44 @@ const Footer = () => {
           <h2 className="dark:text-white text-black text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
-              <a
+              <Link
                 href="/"
                 className="hover:text-zinc-800W hover:dark:text-white transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#Skill"
                 className="hover:text-zinc-800W hover:dark:text-white  transition-colors duration-300"
               >
                 Skill
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#Projects"
                 className="hover:text-zinc-800W hover:dark:text-white  transition-colors duration-300"
               >
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#Education"
                 className="hover:text-zinc-800W hover:dark:text-white  transition-colors duration-300"
               >
                 Education
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="#Contact"
                 className="hover:text-zinc-800W hover:dark:text-white  transition-colors duration-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
