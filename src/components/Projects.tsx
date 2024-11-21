@@ -152,7 +152,7 @@ export default function Projects() {
                   <p className="text-sm text-neutral-600 dark:text-neutral-400">
                     {p.description}
                   </p>
-                  <Link href={p.link}>
+                  <Link target={"_blank"} href={p.link}>
                     <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
                       <span>View Source </span>
                       <span className=" rounded-full text-[0.6rem] px-2 py-0 text-white">

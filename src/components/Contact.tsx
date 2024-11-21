@@ -62,13 +62,13 @@ export function Contact() {
           <input type="hidden" name="access_key" value="4a126e3e-f8f3-4786-8d60-000767dbe404" />
           <LabelInputContainer className="mb-4">
             <Label htmlFor="email">Email Address</Label>
-            <Input id="email" placeholder="projectmayhem@fc.com" type="email" required />
+            <Input id="email" placeholder="name@gmail.com" type="email" required />
           </LabelInputContainer>
           <LabelInputContainer className="mb-4">
             <Label htmlFor="message">Message</Label>
             <Input id="message" placeholder="Hi!" type="text" required />
           </LabelInputContainer>
-          <span>{result}</span>
+          <span className="text-neutral-800 dark:text-neutral-200">{result}</span>
           <button
             className="mt-4 bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
             type="submit"

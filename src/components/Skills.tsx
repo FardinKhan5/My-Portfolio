@@ -66,9 +66,9 @@ function Skills() {
             {skills.map((skill:{logo:ReactElement,name:string},index:number) => {
                 if(showMore || (!showMore && index < 5)){
                     return (
-                        <GlareCard key={skill.name} className="flex flex-col items-center justify-center text-white bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500">
+                        <GlareCard key={skill.name} className="flex flex-col items-center justify-center text-zinc-800 dark:text-white bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500">
                             {skill.logo}
-                            <p className="text-white font-bold text-sm mt-4">{skill.name}</p>
+                            <p className="text-zinc-800 dark:text-white font-bold text-sm mt-4">{skill.name}</p>
                         </GlareCard>
                     )
                 }
