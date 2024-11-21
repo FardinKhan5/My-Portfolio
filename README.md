@@ -1,4 +1,4 @@
-# Portfolio Website  
+# My Portfolio Website  
 
 🚀 A modern, responsive portfolio website built using cutting-edge technologies like **Next.js**, **TypeScript**, **TailwindCSS**, and **Aceternity UI**. The website supports **dark** and **light** themes, ensuring a seamless user experience across all devices. The contact form is powered by **Web3Forms** for secure and efficient message handling.  
 
